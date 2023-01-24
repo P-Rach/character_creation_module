@@ -58,9 +58,9 @@ def start_training(char_name, char_class):
     if char_class == 'healer':
         print(f'{char_name}, ты Лекарь — чародей, способный исцелять раны.')
     print('Потренируйся управлять своими навыками.')
-    print('Введи одну из команд:'
-          'attack — чтобы атаковать противника,'
-          'defence — чтобы блокировать атаку противника,'
+    print('Введи одну из команд: '
+          'attack — чтобы атаковать противника, '
+          'defence — чтобы блокировать атаку противника, '
           'special — чтобы использовать свою суперсилу.')
     print('Если не хочешь тренироваться, введи команду skip.')
     cmd = None
@@ -82,9 +82,9 @@ def choice_char_class():
     approve_choice = None
     char_class = None
     while approve_choice != 'y':
-        char_class = input('Введи название класса, за который хочешь играть:'
-                           'Воитель — warrior,'
-                           'Маг — mage,'
+        char_class = input('Введи название класса, за который хочешь играть: '
+                           'Воитель — warrior, '
+                           'Маг — mage, '
                            'Лекарь — healer: ')
         if char_class == 'warrior':
             print('Воитель — дерзкий воин ближнего боя.'
