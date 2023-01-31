@@ -3,12 +3,8 @@ After player choose class it initiate tutorial.
 """
 
 from random import randint
-
-"""Import the random integers from table."""
-
-
 from graphic_arts.start_game_banner import run_screensaver
-"""Import run_screensaver() function from start_game_banner module."""
+
 
 def attack(char_name: str, char_class: str) -> str:
     """Calculate the Attack damage points for each class."""
